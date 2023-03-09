@@ -226,3 +226,11 @@ together {
 ```
 
 You can also use the keyword ```hidden``` as part of a relation to hide associations
+
+### How A Completed UML Could Look Like
+
+<img width="840" alt="Screenshot 2023-03-09 at 10 39 11 AM" src="https://user-images.githubusercontent.com/108452607/224123408-50a6ae75-b268-4ddf-a12c-58d874a2e2d9.png">
+
+
+<img width="559" alt="Screenshot 2023-03-09 at 10 39 42 AM" src="https://user-images.githubusercontent.com/108452607/224123509-c191bbf0-8aab-4105-96c5-dcb500228cc7.png">
+
