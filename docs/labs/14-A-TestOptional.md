@@ -35,6 +35,11 @@ while Exceptions are like a mailman that gets data and does a certain action.
 Here is more reading on
 [assertions](https://www.infoworld.com/article/3543239/how-to-use-assertions-in-java.html).
 
+Assertions can help clarify initial assumptions and mistakes in code by letting developers check
+for abnormalities in their code. Utilizing this tool can lead to more efficient code by checking
+for errors early, accurately locating the errors, and ensure that conditions hold their expected values. 
+[Avoiding Debugging](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/08-avoiding-debugging/#assertions)
+
 In a nutshell,
 Assertions are used for bug checking for data that should NEVER be out of the norm,
 can be turned on and off,
