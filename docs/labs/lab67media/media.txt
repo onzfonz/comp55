@@ -1,1 +1,0 @@
-Media folder for lab67 to upload into. Will upload media after folder is created.
