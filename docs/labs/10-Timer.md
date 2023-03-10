@@ -45,6 +45,10 @@ A **`Timer`** is a Java class whose sole responsibility is to wake up every X mi
 You end up specifying how often you want a timer to wake up.
 From an analogy standpoint,
 it's very much like a repeating alarm.
+
+![New Project (1)](https://user-images.githubusercontent.com/114449077/224256850-ba59bb7c-4d66-4db1-8046-4c8d33bc34c9.png)
+
+
 Since a `Timer` is a class,
 to create one of these alarms,
 we have to follow three steps.
