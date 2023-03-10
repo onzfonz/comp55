@@ -234,3 +234,5 @@ You can also use the keyword ```hidden``` as part of a relation to hide associat
 
 <img width="559" alt="Screenshot 2023-03-09 at 10 39 42 AM" src="https://user-images.githubusercontent.com/108452607/224123509-c191bbf0-8aab-4105-96c5-dcb500228cc7.png">
 
+
+<img width="831" alt="Screenshot 2023-03-09 at 5 43 23 PM" src="https://user-images.githubusercontent.com/108452607/224201679-cb38d7fa-7fc2-497e-857b-94a14f859861.png">
