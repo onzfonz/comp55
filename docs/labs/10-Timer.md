@@ -238,16 +238,15 @@ Once you have that,
 make sure to **put a brief message in the commit that explains the three things a timer needs**
 and then move on to the next task.
 
-### Extra Practice:
+### Extra Practice
 
 You can also try adding a way of viewing how much has elapsed by adding a start and end timer:
-
 1.) Declare a long start variable to record the starting time of timer
-
 2.) Declare a long end variable to record when program finishes running
+3.) The time elapsed is the difference between the end and start variable
+4.) Notice how the code runs every 1000 milliseconds or 1 second.
 
-3.)  The time elapsed is the difference between the end and start variable
-```
+```java
     
     long start, end;
     long elapsed = 0 ;
@@ -268,16 +267,13 @@ You can also try adding a way of viewing how much has elapsed by adding a start 
 ```
 
 4.) Insert Label
+
 ```java
 myLabel.setLabel("times called? " + numTimes + " || Time Elapsed: " + time_elapsed + " milliseconds. ");
+
 ```
-### Review of the Code
-Notice how the milliseconds is incremented by **1000 **.
-
-
 
 ---
-
 
 ## BallLauncher.java
 
