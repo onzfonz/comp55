@@ -229,17 +229,18 @@ You can also use the keyword ```hidden``` as part of a relation to hide associat
 
 ### How a completed UML could look like
 
+Here is an example of a completed UML. See that there is a main class and many child classes with other methods in them or extending to new classes
+
 ![Complete-UML](https://user-images.githubusercontent.com/108452607/224123408-50a6ae75-b268-4ddf-a12c-58d874a2e2d9.png)
 
 Here is an example of a completed UML. See that there is a main class and many child classes with other methods in them or extending to new classes
 
+
 ![Class-diagram](https://user-images.githubusercontent.com/108452607/224216904-f5723fa6-1ab6-4b7d-bf43-a00f98360196.jpg)
 
-Represented here are different classes that would represent all of the public or private variables and the following methods below them
+Example shows how a use case diagram and how certain methods are communicating with others.
 
 ![Use-Case-Diagram](https://user-images.githubusercontent.com/108452607/224217462-147b4c44-70dd-4cd2-9a41-fc9d5515e265.png)
-
-Example shows how a use case diagram and how certain methods are communicating with others.
 
 ### Extra Information
 
