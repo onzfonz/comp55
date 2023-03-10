@@ -54,9 +54,11 @@ implements the ```Map``` interface.
 a bond,
 or mapping,
 between two items.
-Java has a ```HashTable``` class that is
-nearly identical to the ```HashMap``` class,
-but ```HashTable``` is now obsolete and still available for legacy reasons.
+Java has a [`HashTable`](https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html)
+class that is nearly identical to the
+[`HashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) class,
+but `HashTable` is now obsolete;
+it is still available for legacy reasons.
 These two classes are not to be confused with Java's ```HashSet``` data structure,
 which uses hashing to implement Java's **Set** interface.
 All three data structures use a
@@ -255,26 +257,23 @@ it would be replaced with this longer definition.
 
 ## But...what if there are multiple meanings for the same word?
 
-In that case, if you want to store multiple meanings,
-you'll have to select an object or class that will allow you to store multiple meanings.
+If you want to store multiple meanings,
+you'll have to select an object or class that will allow you to do so.
 For example,
-you can have a word that has multiple meanings sometimes even contradictory.
+you can have a word with multiple, sometimes even contradictory meanings.
 Let's start up another ```HashMap```,
 this time for contronyms which are words that often have opposite meanings.
-For example,
-think about the word ***dust***.
-Usually, it means to take off something right?
-For example,
-when you want to *dust* the furniture.
+Think about the word ***dust***.
+Usually, it means to take off something, like to *dust* the furniture.
 However,
 the word *dust* can also mean to add something instead of taking it away!
 For example, you may want to *dust* a pan with flour.
 In this case, the word **dust** has two meanings.
 Let's say we want to create a map that has both.
 How would this be done?
-In this situation, we could create some long string,
-but what we can do is simply create a different linkage,
-one in which we'll link a word,
+We could create some long string,
+but we also merely create a different linkage,
+one in which we'll link a word
 with another storage mechanism that would allow us to store multiple definitions.
 The easiest structure you have for that is to use an ```ArrayList```.
 So we are going to link a key which will be a ```String```
