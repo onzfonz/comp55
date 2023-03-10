@@ -229,7 +229,7 @@ You can also use the keyword ```hidden``` as part of a relation to hide associat
 
 ### How A Completed UML Could Look Like
 
-![Complete-UML]("https://user-images.githubusercontent.com/108452607/224123408-50a6ae75-b268-4ddf-a12c-58d874a2e2d9.png")
+![Complete-UML](https://user-images.githubusercontent.com/108452607/224123408-50a6ae75-b268-4ddf-a12c-58d874a2e2d9.png)
 
 Here is an example of a fully completed UML of a program. See that there is a central or "main" class as well as many child classes with other methods in them or extending to new classes.
 
