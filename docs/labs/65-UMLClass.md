@@ -227,17 +227,19 @@ together {
 
 You can also use the keyword ```hidden``` as part of a relation to hide associations
 
-### How A Completed UML Could Look Like
+### How a completed UML could look like
 
 ![Complete-UML](https://user-images.githubusercontent.com/108452607/224123408-50a6ae75-b268-4ddf-a12c-58d874a2e2d9.png)
 
 Here is an example of a fully completed UML of a program. See that there is a central or "main" class as well as many child classes with other methods in them or extending to new classes.
+
 ![Class-diagram](https://user-images.githubusercontent.com/108452607/224216904-f5723fa6-1ab6-4b7d-bf43-a00f98360196.jpg)
+
 Represented here are different classes that would represent all of the public/private variables as well as the following methods below them.
 
 ![Use-Case-Diagram](https://user-images.githubusercontent.com/108452607/224217462-147b4c44-70dd-4cd2-9a41-fc9d5515e265.png)
 
-This example shows how a use case diagram can be used in a UML and how certain methods are related/communicating with others.
+Example shows how a use case diagram and how certain methods are communicating with others.
 =======
 ### Extra Information
 
