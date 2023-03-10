@@ -227,19 +227,15 @@ together {
 
 You can also use the keyword ```hidden``` as part of a relation to hide associations
 
-### How a completed UML could look like
+### How a completed UML and other UMLs could look like
 
 ![Complete-UML](https://user-images.githubusercontent.com/108452607/224123408-50a6ae75-b268-4ddf-a12c-58d874a2e2d9.png)
 
 See there's a main/child classes w/ methods or going to new classes
 
-### How a Class Diagram could look
-
 ![Class-diagram](https://user-images.githubusercontent.com/108452607/224216904-f5723fa6-1ab6-4b7d-bf43-a00f98360196.jpg)
 
 See there's a main class & many child classes with other methods or extending to new classes
-
-# How a Use Case Diagram could look
 
 ![Use-Case-Diagram](https://user-images.githubusercontent.com/108452607/224217462-147b4c44-70dd-4cd2-9a41-fc9d5515e265.png)
 
