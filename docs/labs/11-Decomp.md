@@ -162,7 +162,7 @@ For this acm ```movePolar``` function,
 the angle is expressed in degrees from ```0``` to ```360```.
 Look at this handy chart below to understand how the angles translate to different directions.
 
-![diagram showing polar coordinate values](lab11media/media/image1inv.png)
+![diagram showing polar coordinate values](lab11media/media/image1.png)
 
 Instead of me trying to tell you which argument is which,
 use some different values,
