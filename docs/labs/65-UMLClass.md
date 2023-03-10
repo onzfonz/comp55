@@ -237,7 +237,7 @@ Here is an example of a fully completed UML of a program. See that there is a ce
 
 Represented here are different classes that would represent all of the public/private variables as well as the following methods below them.
 
-![Use Case Diagram](src="https://user-images.githubusercontent.com/108452607/224201679-cb38d7fa-7fc2-497e-857b-94a14f859861.png")
+![Use-Case-Diagram](https://user-images.githubusercontent.com/108452607/224217462-147b4c44-70dd-4cd2-9a41-fc9d5515e265.png)
 
 This example shows how a use case diagram can be used in a UML and how certain methods are related/communicating with others.
 =======
