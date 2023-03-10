@@ -231,8 +231,12 @@ You can also use the keyword ```hidden``` as part of a relation to hide associat
 
 <img width="840" alt="Screenshot 2023-03-09 at 10 39 11 AM" src="https://user-images.githubusercontent.com/108452607/224123408-50a6ae75-b268-4ddf-a12c-58d874a2e2d9.png">
 
+Here is an example of a fully completed UML of a program. See that there is a central or "main" class as well as many child classes with other methods in them or extending to new classes.
 
 <img width="559" alt="Screenshot 2023-03-09 at 10 39 42 AM" src="https://user-images.githubusercontent.com/108452607/224123509-c191bbf0-8aab-4105-96c5-dcb500228cc7.png">
 
+Represented here are different classes that would represent all of the public/private variables as well as the following methods below them.
 
 <img width="831" alt="Screenshot 2023-03-09 at 5 43 23 PM" src="https://user-images.githubusercontent.com/108452607/224201679-cb38d7fa-7fc2-497e-857b-94a14f859861.png">
+
+This example shows how a use case diagram can be used in a UML and how certain methods are related/communicating with others.
