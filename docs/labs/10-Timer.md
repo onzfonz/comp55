@@ -240,8 +240,8 @@ and then move on to the next task.
 
 ### Extra Practice
 
-This extra practice allows you to see how often the timer function is ran depending on your initialization. 
-It also familiarize you with how to measure how efficient your current program is or visualize time complexity.
+This extra practice allows you to see how often the timer function is ran depending on your initialization.
+It also familiarizes you with program efficiency and visualizes time complexity.
 You can also try adding a way of viewing how much has elapsed by adding a start and end timer:
 1.) Declare a long start variable to record the starting time of timer
 2.) Declare a long end variable to record when program finishes running
@@ -255,23 +255,23 @@ You can also try adding a way of viewing how much has elapsed by adding a start 
     long elapsed = 0 ;
     
     public void actionPerformed(ActionEvent e) {
-    	myLabel.setLabel("times called? " + numTimes + " || Time Elapsed: " + time_elapsed + " milliseconds. ");
-		if (numTimes == 10) {
-			t.stop();
+    		myLabel.setLabel("times called? " + numTimes + " || Time Elapsed: " + time_elapsed + " milliseconds. ");
+			if (numTimes == 10) {
+				t.stop();
+			}
+			myLabel.move(5, 0);
+			numTimes += 1;
+			updateTime();
 		}
-		myLabel.move(5, 0);
-		numTimes += 1;
-		updateTime();
-	}
     
     
     public void run(){
         start = System.currentTimeMillis(); //when program starts
         addMouseListeners();
         addKeyListeners();
-	myLabel = new GLabel("# of times called?", 0, 100);
-	add(myLabel);
-	}
+		myLabel = new GLabel("# of times called?", 0, 100);
+		add(myLabel);
+		}
     
     
     public void updateTime(){
