@@ -255,23 +255,23 @@ You can also try adding a way of viewing how much has elapsed by adding a start 
     long elapsed = 0 ;
     
     public void actionPerformed(ActionEvent e) {
-    		myLabel.setLabel("times called? " + numTimes + " || Time Elapsed: " + time_elapsed + " milliseconds. ");
-			if (numTimes == 10) {
-				t.stop();
-			}
-			myLabel.move(5, 0);
-			numTimes += 1;
-			updateTime();
-		}
+    myLabel.setLabel("times called? " + numTimes + " || Time Elapsed: " + time_elapsed + " milliseconds. ");
+    if (numTimes == 10) {
+        t.stop();
+    }
+    myLabel.move(5, 0);
+    numTimes += 1;
+    updateTime();
+    }
     
     
     public void run(){
         start = System.currentTimeMillis(); //when program starts
         addMouseListeners();
         addKeyListeners();
-		myLabel = new GLabel("# of times called?", 0, 100);
-		add(myLabel);
-		}
+        myLabel = new GLabel("# of times called?", 0, 100);
+        add(myLabel);
+        }
     
     
     public void updateTime(){
