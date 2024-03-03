@@ -80,7 +80,18 @@ use you.
     (You can just use the option "push upstream".
     If it won't let you, continue the pull and merge.
 
-5. If you're having issues with the repository,
+    Here is what a conflicting merge looks like:
+
+   
+    ![Egit-0 10-merge-conflict](https://github.com/comp129/comp55/assets/76021136/2ffb97bc-4b48-4e98-a12d-9afdac298a02)
+
+    You will have to coordinate with your team which lines to keep and which lines to delete.
+    You will also have to remove the  "<<<<< HEAD", "======", and ">>>>>>".
+    These markers delineate the conflicting changes.
+    After you have done that, you can successfully push the code.
+
+
+6. If you're having issues with the repository,
    you can always reset your folder to match the latest version.
    To do this,
    right-click on the project,
