@@ -89,7 +89,6 @@ use you.
     These markers delineate the conflicting changes.
     After you have done that, you can successfully push the code.
 
-
 5. If you're having issues with the repository,
    you can always reset your folder to match the latest version.
    To do this,
